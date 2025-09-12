@@ -2,11 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register Here</title>
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Register here </title>
+
+    <link rel="stylesheet" href="../CSS/style2.css">
 </head>
 <body>
-    <h1>Register Here</h1>
+
+    <div class="container">
     
+        <h1>Registration page </h1>
+        <form>
+            <label for="name">Name :</label><br>
+            <input class="inputbox" type="text" name="user name" placeholder="Enter your username" />
+            <br>
+            <label for="name">Mobile Number :</label><br>
+            <input class="inputbox" type="tel" name="mobile" placeholder="Enter your Mobile No" />
+            <br>
+            <label for="name">Email :</label><br>
+            <input class="inputbox" type="text" name="email" placeholder="Enter your email" />
+            <br>
+            <label for="date">DOB :</label><br>
+            <input class="inputbox" type="date" name="dob" />
+            <br>
+            <label for="name">Gender :</label><br>
+            <input type="radio" name="gender" value="M" />Male
+            <input type="radio" name="gender" value="F" />FeMale
+            <br>
+            <label for="name">Address :</label><br>
+            <textarea name="address" id="" class="inputbox"></textarea>
+            <label for="branch ">Branch :</label><br>
+            <select class="inputbox" name="branch">
+                <option value="CSE">CSE</option>
+                <option value="CSE">IT</option>
+                <option value="CSE">AIML</option>
+                <option value="CSE">CSE-AIML</option>
+            </select>
+            <br>
+            <label for="semester">Sem:</label><br>
+            <select class="inputbox" name="sem">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+            <br>
+            <div>
+                <input type="submit" value="register" class="register">
+                <input type="reset" value="reset" class="reset">
+ 
+            </div>
+            
+    
+    </div>
+
+
+
 </body>
 </html>
